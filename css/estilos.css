@@ -1,0 +1,78 @@
+/*
+Etiquetas que tiene atributo
+por defecto
+
+div, p, section, article:
+Por defecto tiene el atributo
+- display: block
+
+span, img, a, strong:
+Por defecto tiene el atributo
+- display: inline
+
+Formar de alinear
+float: left, right
+display: inline, flex, grid
+
+*/
+
+/*
+Medidas
+- Absolutas: px, pt
+- Relativas: %, rem, em
+
+REM: Se basa en el font-size del body
+- Si en el body 16px || 1rem = 16px
+- Si yo coloco 2rem = 32rem
+
+EM: Se basa en el font-size que tenga el contenedor
+- Si yo tengo div que contiene una p, ese div
+- tiene por defecto font-size 16px
+- al p si yo coloco el font-size 1em
+
+*/
+
+
+html,
+body{
+  padding: 0; /* relleno*/
+  margin: 0; /* margenes*/
+}
+
+body{
+  font-size: 16px;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media screen and (max-width: 1023px) {
+
+}
+
+
+/*
+Min-width: Desde que medida se aplica hacia adelante
+Max-width: Limite de la medida que lo ponga
+*/
+@media screen and (min-width: 1024px) {
+  .container{
+    max-width: 1000px;
+  }
+  .home-A-content{
+    display: flex;
+  }
+  .header-menu{
+    align-items: center;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1224px) {
+  .container{
+    max-width: 1200px;
+  }

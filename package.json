@@ -1,0 +1,23 @@
+{
+  "name": "curso-maquetacion",
+  "version": "1.0.0",
+  "description": "Tismart curso",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GersonDesign/ResponsiveWebBasic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GersonDesign/ResponsiveWebBasic/issues"
+  },
+  "homepage": "https://github.com/GersonDesign/ResponsiveWebBasic#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2"
+  }
+}
