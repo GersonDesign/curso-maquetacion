@@ -80,6 +80,9 @@ body{
   margin-right: auto;
 }
 
+header{
+  padding-top: 30px;
+}
 
 
 
@@ -151,17 +154,33 @@ Min-width: Desde que medida se aplica hacia adelante
 Max-width: Limite de la medida que lo ponga
 */
 @media screen and (min-width: 1024px) {
+
+
   .container{
     max-width: 1000px;
   }
   .home-A-content{
+    align-items: center;
     display: flex;
   }
 
   .header-content{
     align-items: center;
     display: flex;
+    justify-content: space-between;
   }
+  .header-menu{
+    width: 50%;
+  }
+  .header-content nav{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .header-content a{
+    font-size: 18px;
+  }
+
   .home-C-content{
     display: flex;
   }
